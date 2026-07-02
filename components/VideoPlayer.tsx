@@ -33,7 +33,7 @@ export default function VideoPlayer({ streamUrl, matchTitle, isLive = false }: V
 
   const handleFollowClick = () => {
     setIsLoading(true);
-    window.open('https://facebook.com/yourpage', '_blank');
+    window.open('https://facebook.com/aiformaster', '_blank');
     setTimeout(() => {
       localStorage.setItem('hasFollowed', 'true');
       setHasFollowed(true);
