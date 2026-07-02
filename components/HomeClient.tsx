@@ -10,7 +10,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { getStreamsByMatchId, type Match, type Stream, type Announcement } from '@/lib/supabase';
 
 const DEFAULT_ANNOUNCEMENT =
-  'LIVE NOW: Brazil vs Japan! All servers are running smoothly. Report if you face any issues!';
+  'FIFA WORLD CUP LIVE: Argentina vs Cabo Verde! 📢 খেলা শুরু আগে সব সার্ভার লাইভ হয়ে যাবে! 📌 টেলিগ্রাম: t.me/aiformaster. Report if you face any issues!';
 
 function isLive(m: Match) { return m.status?.toLowerCase() === 'live'; }
 function isUpcoming(m: Match) { return m.status?.toLowerCase() === 'upcoming'; }
